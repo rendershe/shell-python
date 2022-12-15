@@ -40,4 +40,4 @@ def dispatcher(request):
 
 
     else:
-        return JsonResponse({'ret': 1, 'msg': 'No class type HTTP request'})
+        return JsonResponse({'ret': 1, 'msg': 'No class type HTTP request!'})
